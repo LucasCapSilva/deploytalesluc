@@ -12,7 +12,7 @@ function Footer() {
 
     var footerComponent;
 
-    if(token != ''){
+    if(token !== ''){
         footerComponent= <Grid container>
         <Grid item xs={12} >
             <Box display="flex" flexDirection="row" className="box1" justifyContent='center'>

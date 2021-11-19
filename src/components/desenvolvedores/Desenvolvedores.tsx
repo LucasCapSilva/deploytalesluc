@@ -31,10 +31,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/MatheusVSOliveira" target="_blank">
+                        <a href="https://github.com/MatheusVSOliveira"  target="_blank" rel="noreferrer">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/matheusvsoliveira/" target="_blank">
+                        <a href="https://www.linkedin.com/in/matheusvsoliveira/"  target="_blank" rel="noreferrer">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -59,10 +59,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/larissacost" target="_blank">
+                        <a href="https://github.com/larissacost"  target="_blank" rel="noreferrer">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/larissaimdacosta067841123/" target="_blank">
+                        <a href="https://www.linkedin.com/in/larissaimdacosta067841123/"  target="_blank" rel="noreferrer">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -87,10 +87,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/samanthaccosta" target="_blank">
+                        <a href="https://github.com/samanthaccosta"  target="_blank" rel="noreferrer">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/samantha-costa-0290b91a7/" target="_blank">
+                        <a href="https://www.linkedin.com/in/samantha-costa-0290b91a7/"  target="_blank" rel="noreferrer">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -115,10 +115,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/Jprood" target="_blank">
+                        <a href="https://github.com/Jprood"  target="_blank" rel="noreferrer">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/joao-pedro-rocha/" target="_blank">
+                        <a href="https://www.linkedin.com/in/joao-pedro-rocha/"  target="_blank" rel="noreferrer">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -143,10 +143,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/narumiincode" target="_blank">
+                        <a href="https://github.com/narumiincode"  target="_blank" rel="noreferrer">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/richard-kenji-300ba6bb/" target="_blank">
+                        <a href="https://www.linkedin.com/in/richard-kenji-300ba6bb/"  target="_blank" rel="noreferrer">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import { Box, Typography, Grid, Button } from '@mui/material';
-import { busca, post, } from '../../../services/Service';
+import { busca} from '../../../services/Service';
 import Postagem from '../../../models/Postagem';
 import "./ListaPostagem.css";
 import { useSelector } from 'react-redux';
