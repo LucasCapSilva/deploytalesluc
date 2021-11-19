@@ -1,13 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import CadastroUsuario from './paginas/cadastrousuario/CadastroUsuario';
-import CadastroTema from './components/temas/cadastrotema/CadastroTema';
-import ListaTema from './components/temas/listatema/ListaTema';
-import ListaPostagem from './components/postagens/listapostagem/ListaPostagem';
-import CadastroPost from './components/postagens/cadastropost/CadastroPost';
-import DeletarTema from './components/temas/deletartema/DeletarTema';
-import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+
 import { Provider } from 'react-redux';
 import store from './store/store';
 import {ToastContainer} from 'react-toastify';
@@ -16,6 +10,13 @@ import NavBar from './components/estaticos/NavBar/NavBar';
 import Login from './paginas/Login/Login';
 import Home from './paginas/Home/Home';
 import SobreNos from './paginas/sobre-nos/SobreNos';
+import CadastroUsuario from './paginas/cadastrousuario/CadastroUsuario';
+import ListaTema from './components/temas/listatema/ListaTemaAdmin';
+import ListaPostagem from './components/postagens/listapostagem/ListaPostagem';
+import CadastroPost from './components/postagens/cadastropost/CadastroPost';
+import CadastroTema from './components/temas/cadastrotema/CadastroTema';
+import DeletarTema from './components/temas/deletartema/DeletarTema';
+import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
 import Footer from './components/estaticos/Footer/Footer';
 
 

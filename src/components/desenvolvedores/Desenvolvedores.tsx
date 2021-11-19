@@ -4,6 +4,8 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './Desenvolvedores.css';
@@ -31,10 +33,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/MatheusVSOliveira"  target="_blank" rel="noreferrer">
+                        <a href="https://github.com/MatheusVSOliveira" target="_blank">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/matheusvsoliveira/"  target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/matheusvsoliveira/" target="_blank">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -59,10 +61,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/larissacost"  target="_blank" rel="noreferrer">
+                        <a href="https://github.com/larissacost" target="_blank">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/larissaimdacosta067841123/"  target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/larissaimdacosta067841123/" target="_blank">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -87,10 +89,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/samanthaccosta"  target="_blank" rel="noreferrer">
+                        <a href="https://github.com/samanthaccosta" target="_blank">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/samantha-costa-0290b91a7/"  target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/samantha-costa-0290b91a7/" target="_blank">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -115,10 +117,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/Jprood"  target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Jprood" target="_blank">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/joao-pedro-rocha/"  target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/joao-pedro-rocha/" target="_blank">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>
@@ -143,10 +145,10 @@ function Desenvolvedores() {
                 </CardContent>
                 <CardActions>
                     <Box className='logo-dev'>
-                        <a href="https://github.com/narumiincode"  target="_blank" rel="noreferrer">
+                        <a href="https://github.com/narumiincode" target="_blank">
                             <GitHubIcon className='colorIcon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/richard-kenji-300ba6bb/"  target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/richard-kenji-300ba6bb/" target="_blank">
                             <LinkedInIcon className='colorIcon' />
                         </a>
                     </Box>

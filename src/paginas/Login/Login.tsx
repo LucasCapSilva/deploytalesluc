@@ -48,7 +48,7 @@ function Login() {
 
     useEffect(() => {
        
-        if (respUserLogin.token !== '') {
+        if (respUserLogin.token != '') {
             dispatch(addToken(respUserLogin.token));
             dispatch(addName(respUserLogin.nome));
             dispatch(addTipoUsuario(respUserLogin.tipoUsuario));

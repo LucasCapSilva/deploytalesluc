@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Typography, Button, Box, Grid } from "@mui/material"
+import { Typography, Button, Box, Card, CardActions, CardContent, Grid } from "@mui/material"
 import './DeletarPostagem.css';
 import { useHistory, useParams } from 'react-router-dom';
 import Postagem from '../../../models/Postagem';
@@ -17,7 +17,7 @@ function DeletarPostagem() {
   );
 
   useEffect(() => {
-    if (token === "") {
+    if (token == "") {
         toast.error('Você precisa estar logado!', {
             position: 'top-right',
             autoClose: 2000,

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ChangeEvent } from 'react'
-import { Typography, TextField, Button, Grid, Box } from '@mui/material';
+import { Container, Typography, TextField, Button, Grid, Box } from '@mui/material';
 import { useHistory, useParams } from 'react-router-dom'
 import { buscaId, post, put } from '../../../services/Service';
 import Tema from '../../../models/Tema';
@@ -26,7 +26,7 @@ function CadastroTema() {
     })
 
     useEffect(() => {
-        if (token === "") {
+        if (token == "") {
             toast.error('Você precisa estar logado!', {
                 position: 'top-right',
                 autoClose: 2000,
@@ -68,7 +68,7 @@ function CadastroTema() {
         e.preventDefault()
         console.log("tema " + JSON.stringify(tema))
 
-        if (id === undefined && tema.nome !== '' && tema.descricao !== '') {
+        if (id == undefined && tema.nome != '' && tema.descricao != '') {
 
             post(`/temas`, tema, setTema, {
                 headers: {
@@ -87,7 +87,7 @@ function CadastroTema() {
             })
             back()
         }
-        else if (id !== undefined && tema.nome !== '' && tema.descricao !== '') {
+        else if (id != undefined && tema.nome != '' && tema.descricao != '') {
 
             put('/temas', tema, setTema, {
                 headers: {
