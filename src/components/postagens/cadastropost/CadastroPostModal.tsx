@@ -19,7 +19,7 @@ function CadastroPost() {
     );
 
     useEffect(() => {
-        if (token == "") {
+        if (token === "") {
             toast.error('Você precisa estar logado!', {
                 position: 'top-right',
                 autoClose: 2000,
@@ -92,7 +92,7 @@ function CadastroPost() {
     async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
         e.preventDefault()
 
-        if (id == undefined && tema.nome != "" && postagem.titulo != "" && postagem.texto != "") {
+        if (id === undefined && tema.nome !== "" && postagem.titulo !== "" && postagem.texto !== "") {
             post(`/postagens`, postagem, setPostagem, {
                 headers: {
                     'Authorization': token
@@ -111,7 +111,7 @@ function CadastroPost() {
             back()
         }
 
-        else if (id !== undefined && tema.nome != "" && postagem.titulo != "" && postagem.texto != "") {
+        else if (id !== undefined && tema.nome !== "" && postagem.titulo !== "" && postagem.texto !== "") {
             post(`/postagens`, postagem, setPostagem, {
                 headers: {
                     'Authorization': token

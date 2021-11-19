@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
-import { Box, Typography, Grid, Button } from '@mui/material';
-import { busca, post, } from '../../../services/Service';
+import { Box, Typography, Grid } from '@mui/material';
+import { busca } from '../../../services/Service';
 import Postagem from '../../../models/Postagem';
 import "./ListaPostagem.css";
 import ModeEditIcon from '@mui/icons-material/ModeEdit';
@@ -18,7 +18,7 @@ function ListaPostagem() {
     );
 
     useEffect(() => {
-        if (token == "") {
+        if (token === "") {
             toast.error('Você precisa estar logado!', {
                 position: 'top-right',
                 autoClose: 2000,

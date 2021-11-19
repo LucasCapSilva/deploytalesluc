@@ -29,7 +29,7 @@ function CadastroUsuario() {
             senha: ''
         })
     useEffect(() => {
-        if (userResult.id != 0) {
+        if (userResult.id !== 0) {
             history.push("/login")
         }
     }, [userResult])
@@ -48,7 +48,7 @@ function CadastroUsuario() {
 
     async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
         e.preventDefault()
-        if (user.senha.length >= 8 && user.nome.length > 2 && confirmarSenha == user.senha) {
+        if (user.senha.length >= 8 && user.nome.length > 2 && confirmarSenha === user.senha) {
             cadastroUsuario(`/usuarios/cadastrar`, user, setUserResult)
             toast.success('Usuário cadastrado com sucesso!', {
                 position: 'top-right',

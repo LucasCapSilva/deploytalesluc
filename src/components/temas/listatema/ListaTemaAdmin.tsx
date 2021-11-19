@@ -17,7 +17,7 @@ function ListaTema() {
   );
 
   useEffect(() => {
-    if (token == "") {
+    if (token === "") {
         toast.error('Você precisa estar logado!', {
             position: 'top-right',
             autoClose: 2000,
