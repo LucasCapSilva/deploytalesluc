@@ -62,4 +62,4 @@ https://vercel.com
 
 ![enter image description here](https://i.imgur.com/1pEcLgh.png)
 
-Clique em go dashboard e em seguida em seu app para abrir a aplicação;
+**Clique em go dashboard e em seguida em seu app para abrir a aplicação;**
